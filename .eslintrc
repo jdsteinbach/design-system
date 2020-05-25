@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": "@upstatement/eslint-config/vue",
+  "rules": {
+    "comma-dangle": "off",
+    "prefer-const": "off",
+    "arrow-parens": "off",
+    "no-console": "off"
+  },
+  "parserOptions": {
+    // For lazy loading routes
+    // https://router.vuejs.org/guide/advanced/lazy-loading.html
+    "parser": "babel-eslint"
+  }
+}

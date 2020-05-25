@@ -1,0 +1,33 @@
+@mixin -input-reset() {
+  display: block;
+  appearance: none;
+  border: 1px solid var(--field-border, var(--color-border));
+  background: var(--color-white);
+}
+
+@mixin -shared-checkbox-radio($type: checkbox) {
+  @include -input-reset;
+
+  padding: 0;
+  width: var(--spacing);
+  height: var(--spacing);
+  min-height: 0;
+  border-width: 2px;
+  border-radius: if($type == checkbox, 0, 50%);
+
+  &:checked {
+    border-color: var(--color-action);
+    background-color: var(--color-action);
+    background-image: url("/assets/icons/check.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@mixin checkbox() {
+  @include -shared-checkbox-radio;
+}
+
+@mixin radio() {
+  @include -shared-checkbox-radio(radio);
+}

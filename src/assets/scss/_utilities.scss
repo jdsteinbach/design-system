@@ -1,0 +1,17 @@
+.u-tag {
+  padding: var(--spacing-eighth) var(--spacing);
+  display: inline-block;
+  font-size: 13px;
+  background-color: var(--color-background);
+}
+
+.u-screen-reader-only {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.u-center {
+  text-align: center;
+}

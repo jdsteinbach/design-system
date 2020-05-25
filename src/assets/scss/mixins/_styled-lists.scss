@@ -1,0 +1,24 @@
+@mixin -styled-list {
+  margin:
+    var(--list-margin-top, var(--spacing-half))
+    var(--list-margin-right, 0)
+    var(--list-margin-bottom, var(--spacing-half))
+    var(--list-margin-left, 0);
+  padding:
+    var(--list-padding-top, 0)
+    var(--list-padding-right, 0)
+    var(--list-padding-bottom, 0)
+    var(--list-padding-left, 1em);
+}
+
+@mixin styled-ul {
+  @include -styled-list;
+
+  list-style: disc;
+}
+
+@mixin styled-ol {
+  @include -styled-list;
+
+  list-style: decimal;
+}

@@ -1,0 +1,44 @@
+:root {
+  --color-black: #263238;
+  --color-black-faded: #{mix(#263238, #FFF, 60%)};
+  --color-border: #{mix(#263238, #FFF, 35%)};
+  --color-border-active: #{mix(#263238, #FFF, 28%)};
+  --color-action: #1565C0;
+  --color-action-bright: #1E88E5;
+  --color-action-on-dark: #64B5F6;
+  --color-action-background: #{mix(#1565C0, #FFF, 10%)};
+  --color-success: #388E3C;
+  --color-success-active: #{lighten(#388E3C, 8%)};
+  --color-alert: #D32F2F;
+  --color-alert-active: #{lighten(#D32F2F, 8%)};
+  --color-brand-1: #7B1FA2;
+  --color-brand-2: #00796B;
+  --color-brand-3: #FFA000;
+  --color-background: #ECEFF1;
+  --color-dividers: #CFD8DC;
+  --color-fields: #B0BEC5;
+  --color-white: #FFFFFF;
+
+  --header-height: 53px;
+  --footer-height: 90px;
+
+  --spacing: 20px;
+  --spacing-half: calc(var(--spacing) / 2);
+  --spacing-quarter: calc(var(--spacing) / 4);
+  --spacing-eighth: calc(var(--spacing) / 8);
+  --spacing-double: calc(var(--spacing) * 2);
+
+  --content-max-width: 40rem;
+
+  --font-size-small: #{(14rem/16)};
+  --font-size-body-1: #{(15rem/16)};
+  --font-size-body-2: #{(16rem/16)};
+  --font-size-subheading: #{(18rem/16)};
+  --font-size-title: #{(23rem/16)};
+  --font-size-headline: #{(30rem/16)};
+  --font-size-display-1: #{(40rem/16)};
+  --font-size-display-2: #{(34rem/16)};
+
+  --font-family-body: Roboto, Helvetica, sans-serif;
+  --font-family-heading: Oxygen, Roboto, Helvetica, sans-serif;
+}

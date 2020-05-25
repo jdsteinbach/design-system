@@ -1,0 +1,39 @@
+// https://github.com/MMF-FE/vue-svgicon#use-generated-icon
+
+.svg-icon {
+  margin:
+    var(--svg-icon-margin-top, 0)
+    var(--svg-icon-margin-right, 0)
+    var(--svg-icon-margin-bottom, 0)
+    var(--svg-icon-margin-left, 0);
+  width: var(--svg-icon-width, auto);
+  height: var(--svg-icon-height, auto);
+  display: block;
+  vertical-align: middle;
+  color: var(--svg-icon-color, inherit);
+  fill: none;
+  stroke: currentColor;
+  pointer-events: none;
+}
+
+.svg-fill {
+  fill: currentColor;
+  stroke: none;
+}
+
+.svg-up {
+  /* default */
+  transform: rotate(0deg);
+}
+
+.svg-right {
+  transform: rotate(90deg);
+}
+
+.svg-down {
+  transform: rotate(180deg);
+}
+
+.svg-left {
+  transform: rotate(-90deg);
+}
