@@ -18,7 +18,7 @@
     "lint": "vue-cli-service lint",
     "svg": "vsvg -s ./src/assets/icons -t ./src/icons",
     "storybook": "start-storybook -p 6006",
-    "build:storybook": "build-storybook -o .style-guide"
+    "build:storybook": "build-storybook -o dist"
   },
   "dependencies": {
     "axios": "^0.19.0",
