@@ -34,7 +34,6 @@ uiTextButton.add(
     components: { UiTextButton },
     template: `<ui-text-button
       :tag="uiTextButtonTag"
-      :size="uiTextButtonSize"
       :theme="uiTextButtonTheme"
       :type="uiTextButtonType"
       :href="uiTextButtonHref"
