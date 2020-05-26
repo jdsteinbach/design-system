@@ -1,6 +1,6 @@
 import props from '!raw-loader!sass-loader!@/assets/scss/_root-vars.scss';
 
-const propStrings = props.match(/--.*;/gim);
+const propStrings = props.match(/--[^;]*/g);
 
 let properties = {
   color: [],
@@ -8,12 +8,8 @@ let properties = {
   spacing: []
 };
 
-console.log(propStrings)
-
 propStrings.forEach(s => {
   const [ k, v ] = s.split(/:\s{0,}/);
-
-  console.log(k, v);
 
   const propertiesKeys = Object.keys(properties);
 
@@ -25,12 +21,10 @@ propStrings.forEach(s => {
     if (propK) {
       properties[propK].push({
         key: k,
-        value: v.replace(/;$/, '')
+        value: v
       })
     }
   }
 });
-
-console.log(properties)
 
 export default properties;
