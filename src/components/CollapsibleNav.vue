@@ -110,7 +110,7 @@ export default {
 }
 
 .collapsible-nav__trigger {
-  border-radius: 2px 2px var(--border-radius-trigger-bottom, 2px) var(--border-radius-trigger-bottom, 2px);
+  border-radius: 4px 4px var(--border-radius-trigger-bottom, 4px) var(--border-radius-trigger-bottom, 4px);
 
   &:hover,
   &:active {
@@ -138,6 +138,6 @@ export default {
 .collapsible-nav__list {
   border: 1px solid var(--color-dividers);
   border-top: 0;
-  border-radius: 0 0 2px 2px;
+  border-radius: 0 0 4px 4px;
 }
 </style>

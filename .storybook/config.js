@@ -2,7 +2,7 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 
 import { configure, addDecorator, addParameters } from '@storybook/vue';
-import { themes } from '@storybook/theming';
+import custom from './theme/custom';
 import { withInfo, setDefaults } from 'storybook-addon-vue-info'
 
 addDecorator(withInfo);
@@ -12,7 +12,7 @@ setDefaults({
 
 addParameters({
   options: {
-    theme: themes.light,
+    theme: custom,
     storySort: (a, b) => {
       return a[1].id > b[1].id ? 1 : -1;
     }

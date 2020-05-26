@@ -105,7 +105,7 @@ export default {
     var(--button-border-width, 1px)
     solid
     var(--button-border-color, var(--button-bg-color, var(--color-action)));
-  border-radius: 3px;
+  border-radius: 8px;
   font-size: var(--button-font-size, 18px);
   color: var(--button-fg-color, var(--color-white));
   background-color: var(--button-bg-color, var(--color-action));

@@ -144,7 +144,7 @@ export default {
 }
 
 .dropdown-nav__trigger {
-  border-radius: 2px 2px var(--border-radius-trigger-bottom, 2px) var(--border-radius-trigger-bottom, 2px);
+  border-radius: 4px 4px var(--border-radius-trigger-bottom, 4px) var(--border-radius-trigger-bottom, 4px);
 
   &:hover,
   &:active {

@@ -365,7 +365,7 @@ export default {
   font-size: 16px;
   line-height: (26 / 16);
   border: 1px solid var(--field-border, var(--color-border));
-  border-radius: 2px;
+  border-radius: 8px;
 
   &:hover,
   &:active,
@@ -393,7 +393,7 @@ export default {
   font-size: 16px;
   line-height: (26 / 16);
   border: 1px solid var(--field-border, var(--color-border));
-  border-radius: 2px;
+  border-radius: 8px;
 
   &:hover,
   &:active,

@@ -137,7 +137,7 @@ export default {
   bottom: var(--spacing);
   left: var(--spacing);
   z-index: 5;
-  border-radius: 3px;
+  border-radius: 8px;
   background-color: var(--color-white);
 }
 

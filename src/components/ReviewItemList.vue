@@ -13,7 +13,7 @@ export default {
 
 <style lang="scss">
 .review-item-list {
-  border-radius: 4px;
+  border-radius: 8px;
   overflow: hidden;
 
   > li:not(:first-child) {

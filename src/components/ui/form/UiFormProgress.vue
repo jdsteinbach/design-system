@@ -96,7 +96,7 @@ export default {
   height: 10px;
   position: relative;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: var(--color-background);
 
   &::before {
